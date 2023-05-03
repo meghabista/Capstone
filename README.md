@@ -19,13 +19,16 @@ Build a model that segments the tumor/cancer out of the ultrasound images with h
 ## Dataset
 
 ## Overview of the Dataset:
-
+* Source: Al-Dhabyani W, Gomaa M, Khaled H, Fahmy A. Dataset of breast ultrasound images. Data in Brief. 2020 Feb;28:104863. DOI: 10.1016/j.dib.2019.104863.
 * The data collected at baseline includes breast ultrasound images among women in ages between 25 and 75 years old. 
 * This data was collected in 2018. The number of patients are 600 female patients.
 * The dataset consists of 780 images with an average image size of 500*500 pixels.
 * The images are in PNG format. 
 * The ground truth images are presented with original images.
 * The images are categorized into three classes, which are normal, benign, and malignant.
+ * Normal: 133
+ * Benign: 487
+ * Maligant: 210
 * Each classes also includes two different masks.
 
 
