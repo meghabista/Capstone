@@ -57,13 +57,21 @@ Example 2:
 
 ## Attention U-net model:
 
+The Attention U-Net model is a variant of the U-Net architecture, which is a popular convolutional neural network (CNN) commonly used for image segmentation tasks. The attention mechanism in the Attention U-Net model allows the network to focus on more relevant features during the segmentation process.The U-Net architecture consists of an encoder network that progressively reduces the spatial dimensions of the input image, and a decoder network that expands the feature maps to the original size of the image. The attention mechanism in the Attention U-Net model allows the network to learn to selectively focus on specific parts of the image during the segmentation process. This is achieved by incorporating a gating mechanism that learns to amplify or suppress different parts of the feature maps based on their relevance to the segmentation task.The Attention U-Net model has been shown to perform well on a variety of image segmentation tasks, including medical image segmentation and semantic segmentation of natural images. Its attention mechanism allows the model to better capture fine-grained details and produce more accurate segmentations.
+![image](https://user-images.githubusercontent.com/89595947/236074770-b5d916d8-1ff8-46a8-b14e-03cdd08a38a3.png)
+U-Net architecture
+
+![image](https://user-images.githubusercontent.com/89595947/236074833-a7b0b6bd-a8a8-40b8-8522-9a405c86b6c1.png)
+Breakdown of the attention gates
+
+Source:https://towardsdatascience.com/a-detailed-explanation-of-the-attention-u-net-b371a5590831
 
 # Conclusion and Results:
   * After 12 epochs, the model started outputting what we needed
   
-  *The model was easily able to detect black round spots but failed when the shape is         irregular
+  * The model was easily able to detect black round spots but failed when the shape is         irregular
 
-* The model also got confused between dark areas. 
+  * The model also got confused between dark areas. 
 
 Epoch: 1/20
 ![image](https://user-images.githubusercontent.com/89595947/236066874-229b4391-80ad-405d-afad-7ab9313d9d50.png)
