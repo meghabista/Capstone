@@ -1,5 +1,5 @@
 # Config Training
-# Training for 8 epochs
+# Training for 10 epochs
 BATCH_SIZE = 8
 SPE = len(images)//BATCH_SIZE
 
